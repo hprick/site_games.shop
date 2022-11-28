@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form >
+        <input type="text" placeholder="Seu nome">
+        <br />
+        <label for="email">Digite seu e-mail</label>
+        <input id="email" type="email">
+        <br />
+        <input type="tel" placeholder="Seu telefone">
+        <br />
+        <input type="number" max="10" min="0" step="3"/>
+        <br />
+        <input type="file" /> <br />
+        <input type="color" /><br />
+        <input type="checkbox" /> <label for="">Aceito os termos</label> <br />
+        <p>
+            Qual a seu time do coração?
+        </p>
+        <input type="radio" name="Time do coração" id="Palmeiras"> <label for="Palmeiras">Palmeiras</label>
+        <input type="radio" name="Time do coração" id="Verdao"> <label for="Verdao">Verdao</label>
+        <input type="radio" name="Time do coração" id="Palestra"> <label for="Palestra">Palestra</label>
+        <br />
+        <label >Qual seu sexo?</label>
+        <select name="Qual seu Sexo" id="Sexo">
+            <option value="">Masculino</option>
+            <option value="">Feminino</option>
+            <option value="">Outros</option>
+        </select>
+        <br />
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Excluir
+        </button>
+    </form>
+</body>
+</html>
